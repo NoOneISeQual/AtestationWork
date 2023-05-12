@@ -25,3 +25,12 @@ Console.WriteLine($"Элементы меньше или равны 3: {string.J
 // 2 ВАРИАНТ:
 
 void StringArrays (string[] Array1, string[] Array2)
+{
+    for(int i = 0; i < Array1.Length; i++)
+    {
+        if (Array1[i].Length <= 3)
+        {
+            Array2[i] = Array1[i];
+        }
+    }
+}
