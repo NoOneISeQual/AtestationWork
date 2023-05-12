@@ -53,3 +53,12 @@ void PrintArray(string[] Array2)
     }
     Console.WriteLine();
 }
+
+Console.Clear();
+Console.WriteLine("Введите кол-во элементов массива: ");
+int m = int.Parse(Console.ReadLine()!);
+string[] Array1 = new string [n];
+string[] Array2 = new string [Array1.Length];
+ArrayString(Array1);
+StringArrays(Array1,Array2);
+PrintArray(Array2);
