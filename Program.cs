@@ -21,3 +21,7 @@ for (int i = 0; i < StringArray.Length; i++)
 }
 
 Console.WriteLine($"Элементы меньше или равны 3: {string.Join(", ", StringArray2)}");
+
+// 2 ВАРИАНТ:
+
+void StringArrays (string[] Array1, string[] Array2)
