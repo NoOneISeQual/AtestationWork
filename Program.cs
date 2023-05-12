@@ -34,3 +34,12 @@ void StringArrays (string[] Array1, string[] Array2)
         }
     }
 }
+
+void ArrayString (string[] Array1)
+{
+    for (int i = 0; i < Array1.Length; i++)
+    {
+    Console.WriteLine($"Введите {i+1}-й элемент: ");
+    Array1[i] = Convert.ToString(Console.ReadLine()!);
+    }
+}
