@@ -3,3 +3,6 @@ Console.Write("Введите количество элементов масси
 int n = int.Parse(Console.ReadLine()!);
 string[] StringArray = new string [n];
 string[] StringArray2 = new string [n];
+
+int max = 3;
+int count = 0;
