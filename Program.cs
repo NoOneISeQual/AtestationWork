@@ -43,3 +43,13 @@ void ArrayString (string[] Array1)
     Array1[i] = Convert.ToString(Console.ReadLine()!);
     }
 }
+
+void PrintArray(string[] Array2)
+{
+    Console.Write("Элементы равные или меньше 3:");
+    for (int i = 0; i < Array2.Length; i++)
+    {
+    Console.WriteLine($"{Array2[i]} ");
+    }
+    Console.WriteLine();
+}
